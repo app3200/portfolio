@@ -1,0 +1,39 @@
+.skills__list {
+    max-width: 500px;
+    /* border:1px solid red; */
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills__list-item {
+    /* border:1px solid green; */
+    margin: 0.5em;
+  }
+  
+/* 
+  #svgicons{
+    border:1px solid red;
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    height:100px;
+    justify-content:center;
+  }
+  #svgicons>img{
+    border:1px solid green;
+    height:100%;
+    width:110%;
+  } */
+
+  #skillIcon{
+    /* border:1px solid red; */
+    width:25%;
+    text-align:center;
+    margin-left:5%;
+  }
+  #skillIcon>*{
+    height:100%;
+    width:100%;
+  }
